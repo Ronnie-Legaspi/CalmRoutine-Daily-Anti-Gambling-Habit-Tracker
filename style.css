@@ -1,0 +1,82 @@
+:root{
+  --bg:#f7f8fb;
+  --card:#ffffff;
+  --text:#2b2f38;
+  --muted:#6b7280;
+  --brand:#7c9cff;
+  --accent:#fda4af;
+  --shadow:0 10px 30px rgba(28,32,44,.08);
+  --radius:16px;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0; font-family:Inter,system-ui,Arial,sans-serif; color:var(--text);
+  background: radial-gradient(1200px 600px at 20% -10%, #eef2ff 0%, transparent 70%),
+              radial-gradient(800px 500px at 120% -10%, #ecfeff 0%, transparent 60%),
+              var(--bg);
+}
+.wrap{max-width:1100px; margin:20px auto 60px; padding:0 16px;}
+.nav{display:flex; justify-content:space-between; align-items:center; margin-bottom:12px}
+.logo{font-weight:800}
+.nav-links{display:flex; gap:8px}
+.nav-link{padding:8px 12px; border-radius:999px; text-decoration:none; color:var(--text); font-weight:700}
+.nav-link[href^="#"]:hover{background:#fff; box-shadow:var(--shadow)}
+.hero{position:relative; border-radius:20px; overflow:hidden; box-shadow:var(--shadow); margin-bottom:18px}
+.banner{width:100%; height:220px; object-fit:cover; display:block; filter:saturate(.9) contrast(.98)}
+.hero-inner{position:absolute; left:20px; bottom:18px; right:20px; display:flex; align-items:center; justify-content:space-between}
+.hero h1{margin:0; font-size:24px}
+.pill{background:#fff; padding:8px 12px; border-radius:999px; font-weight:600; font-size:13px; box-shadow:0 6px 16px rgba(0,0,0,.06)}
+
+.top-grid{display:grid; grid-template-columns:1.2fr .8fr; gap:16px; margin-bottom:18px}
+@media (max-width:900px){ .top-grid{grid-template-columns:1fr} }
+
+.card{background:var(--card); border-radius:var(--radius); box-shadow:var(--shadow); padding:16px}
+.progress{height:14px; background:#eef2ff; border-radius:999px; overflow:hidden; position:relative; margin:10px 0}
+.progress>span{position:absolute; inset:0; width:0%; background:linear-gradient(90deg,var(--brand), #c4b5fd, var(--accent)); transition:width .4s ease}
+.row{display:flex; align-items:center; justify-content:space-between; gap:12px; margin:8px 0}
+.muted{color:var(--muted); font-size:13px}
+.big{font-weight:800; font-size:20px}
+.streak{display:flex; gap:8px; align-items:center; font-weight:700}
+.quote{font-style:italic; color:#374151; margin:8px 0 0}
+
+.actions{display:flex; gap:10px; flex-wrap:wrap; margin-top:10px}
+button{border:0; border-radius:12px; padding:10px 14px; cursor:pointer; font-weight:700; background:linear-gradient(135deg,#e0e7ff,#a7f3d0); color:#0f172a; box-shadow:var(--shadow)}
+button.secondary{background:#fff; border:1px solid #e5e7eb}
+button:active{transform:translateY(1px)}
+
+.sections-grid{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:10px}
+@media (max-width:900px){ .sections-grid{grid-template-columns:1fr} }
+
+.section{border-radius:12px; overflow:hidden}
+.sect-head{display:flex; align-items:center; gap:12px; padding:12px 14px; background:linear-gradient(180deg,#f8fafc,#ffffff); border-bottom:1px solid #eef2ff}
+.sect-emoji{font-size:20px}
+.sect-title{font-weight:800}
+
+/* Task card */
+.task{display:flex; gap:12px; align-items:flex-start; padding:12px; border-radius:12px; margin:10px 0; background:#fff; border:1px solid #f1f5f9}
+.time{font-weight:700; min-width:86px; font-size:12px; padding:6px 10px; border-radius:999px; background:#eef2ff}
+.check{margin-top:2px; width:18px; height:18px; border:2px solid var(--brand); border-radius:6px; display:grid; place-items:center; cursor:pointer}
+.check input{appearance:none; width:100%; height:100%; margin:0; cursor:pointer}
+.check input:checked{background:linear-gradient(135deg,var(--brand),#c4b5fd); border:none}
+.label{flex:1}
+.label b{display:block; margin-bottom:4px}
+.hint{font-size:13px; color:var(--muted)}
+.done{opacity:.7; transform:scale(.995)}
+.done .label b{text-decoration:line-through}
+
+/* Weekly */
+.weekly-grid{display:grid; grid-template-columns:1fr 1fr 1fr; gap:10px; margin-top:12px}
+@media (max-width:800px){ .weekly-grid{grid-template-columns:1fr 1fr} }
+.mini-task{display:flex; align-items:center; gap:10px; padding:10px 12px; background:#fff; border:1px solid #eef2ff; border-radius:12px}
+.chip{display:inline-block; font-size:11px; padding:4px 8px; border-radius:999px; background:#f1f5f9; margin-right:6px}
+
+.soft{height:1px; background:#f1f5f9; margin:12px 0}
+.footer{margin-top:20px; display:flex; justify-content:space-between; align-items:center; gap:10px; color:var(--muted)}
+.tiny{font-size:12px}
+
+/* QR page small tweaks (qr.html also uses same css) */
+.qr-wrap{display:flex; gap:18px; align-items:center; justify-content:center; flex-direction:column; padding:20px}
+.qr-img{width:300px; height:300px; border-radius:12px; background:#fff; display:grid; place-items:center; box-shadow:var(--shadow)}
+.copy-row{display:flex; gap:8px; align-items:center; margin-top:10px; flex-wrap:wrap}
+.small-input{padding:8px 10px; border-radius:8px; border:1px solid #eef2ff; min-width:260px}

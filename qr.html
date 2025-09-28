@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scan QR - CalmRoutine</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: #f7f5fb; /* soft pastel background */
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .qr-container {
+      text-align: center;
+      background: white;
+      padding: 20px 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .qr-container img {
+      width: 260px;
+      height: 260px;
+      display: block;
+      margin: 0 auto 15px;
+    }
+    .qr-container h2 {
+      margin-bottom: 15px;
+      color: #4c3b73;
+      font-weight: 600;
+      font-size: 1.2rem;
+    }
+    .back-link {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 8px 16px;
+      background: #d9d0f0;
+      color: #4c3b73;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .back-link:hover {
+      background: #c9c0e8;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="qr-container">
+    <h2>Scan to open CalmRoutine</h2>
+    <img src="calmroutine_qr.png" alt="QR Code">
+    <a href="index.html#daily" class="back-link">Back to Routine</a>
+  </div>
+
+</body>
+</html>

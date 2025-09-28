@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Calm Daily Routine Tracker</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <nav class="nav">
+      <div class="logo">🌿 CalmRoutine</div>
+      <div class="nav-links">
+        <a href="#daily" data-route="daily" class="nav-link">Daily</a>
+        <a href="#weekly" data-route="weekly" class="nav-link">Weekly</a>
+        <a href="#buffers" data-route="buffers" class="nav-link">Anti-Gamble</a>
+        <a href="qr.html" class="nav-link">📱 QR</a>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <img class="banner" src="https://picsum.photos/seed/calmmorning/1600/420" alt="Calm banner">
+      <div class="hero-inner">
+        <h1>Daily Routine (Anti-Gamble Mode)</h1>
+        <div class="pill" id="todayLabel">Loading…</div>
+      </div>
+    </header>
+
+    <main id="app">
+      <!-- DAILY PAGE -->
+      <section id="page-daily" class="page" aria-hidden="true">
+        <div class="top-grid">
+          <div class="card progress-card">
+            <div class="row">
+              <div class="big">Progress</div>
+              <div class="muted"><span id="doneCount">0</span>/<span id="totalCount">0</span> done</div>
+            </div>
+            <div class="progress">
+              <span id="progressBar" style="width:0%"></span>
+            </div>
+            <div class="row">
+              <div class="streak">🔥 Streak: <span id="streak">0</span> day(s)</div>
+              <div class="muted tiny">Goal: finish <b id="goalNum">8</b> tasks/day</div>
+            </div>
+          </div>
+
+          <div class="card quote-card">
+            <div class="big">Today’s gentle nudge</div>
+            <p class="quote" id="quote">Loading…</p>
+            <div class="actions">
+              <button id="resetBtn" class="secondary">Reset Today</button>
+              <button id="simulateMidnight">Simulate Midnight</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="sections" class="sections-grid"></div>
+      </section>
+
+      <!-- WEEKLY PAGE -->
+      <section id="page-weekly" class="page" aria-hidden="true">
+        <div class="card">
+          <h2>Weekly Variation (pick your day)</h2>
+          <p class="muted">Toggle the weekly items that match this week’s plan.</p>
+          <div id="weeklyBox" class="weekly-grid"></div>
+          <div class="actions" style="margin-top:12px">
+            <button id="resetWeek">Reset This Week</button>
+            <button id="exportWeek" class="secondary">Export Weekly (JSON)</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- BUFFERS PAGE -->
+      <section id="page-buffers" class="page" aria-hidden="true">
+        <div class="card">
+          <h2>Anti-Gambling Buffers</h2>
+          <div class="buffers-list">
+            <div class="mini-task"><span class="chip">Clean Feed</span> Remove/limit gambling apps & pages today.</div>
+            <div class="mini-task"><span class="chip">Double-Task</span> Keep 2 fallback tasks for downtime.</div>
+            <div class="mini-task"><span class="chip">Replace</span> If craving hits, switch to a hobby or quick workout.</div>
+            <div class="mini-task"><span class="chip">Track Wins</span> Value productivity, not “quick money.”</div>
+          </div>
+          <div class="soft"></div>
+          <div class="muted">Tip: make the tempting apps harder to reach — delete shortcuts, set screen timers, or block them from your browser.</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>Made for you. Stay consistent — small wins add up.</div>
+      <div class="tiny muted">Local & offline. Works without an account. Images via picsum.photos.</div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
