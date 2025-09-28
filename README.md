@@ -16,7 +16,7 @@ You can access the live version of CalmRoutine here:
 
 🔗 **https://ronnie-legaspi.github.io/CalmRoutine-Daily-Anti-Gambling-Habit-Tracker/**
 
-(Replace this URL with your actual GitHub Pages link once it's generated.)
+
 
 
 ## 🚀 How to Use
