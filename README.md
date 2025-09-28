@@ -14,7 +14,7 @@ A simple pastel-themed daily habit tracker designed to reduce gambling urges thr
 
 You can access the live version of CalmRoutine here:
 
-🔗 **https://your-username.github.io/your-repo-name/**
+🔗 **(https://ronnie-legaspi.github.io/CalmRoutine-Daily-Anti-Gambling-Habit-Tracker/)/**
 
 (Replace this URL with your actual GitHub Pages link once it's generated.)
 
