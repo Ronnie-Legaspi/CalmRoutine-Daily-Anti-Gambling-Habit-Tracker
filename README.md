@@ -10,6 +10,14 @@ A simple pastel-themed daily habit tracker designed to reduce gambling urges thr
 - QR code page for quick mobile access
 - Soft calm UI design
 - Weekly variation suggestions
+## 🌐 Live Demo
+
+You can access the live version of CalmRoutine here:
+
+🔗 **https://your-username.github.io/your-repo-name/**
+
+(Replace this URL with your actual GitHub Pages link once it's generated.)
+
 
 ## 🚀 How to Use
 1. Open `index.html` in a browser.
