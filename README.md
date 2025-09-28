@@ -25,13 +25,20 @@ A simple pastel-themed daily habit tracker designed to reduce gambling urges thr
 
 ## 📸 Screenshots
 
-Here are some screenshots of the CalmRoutine interface:
+### ✅ Main Dashboard  
+*Shows the overall layout with checkboxes for daily tasks.*
+![Dashboard](screenshots/Screenshot%202025-09-28%20190042.png)
 
-![Screenshot 1](screenshots/Screenshot%202025-09-28%20190042.png)
+### ✅ Daily Routine Section  
+*Displays the organized schedule with morning, afternoon, and evening tasks.*
+![Daily Routine](screenshots/Screenshot%202025-09-28%20190057.png)
 
-![Screenshot 2](screenshots/Screenshot%202025-09-28%20190057.png)
+### ✅ QR Code Page  
+*Provides a scannable QR code to open the routine site quickly.*
+![QR Page](screenshots/Screenshot%202025-09-28%20190105.png)
 
-![Screenshot 3](screenshots/Screenshot%202025-09-28%20190105.png)
+### ✅ Mobile View  
+*Demonstrates responsiveness on smaller screens.*
+![Mobile View](screenshots/Screenshot%202025-09-28%20190126.png)
 
-![Screenshot 4](screenshots/Screenshot%202025-09-28%20190126.png)
 
