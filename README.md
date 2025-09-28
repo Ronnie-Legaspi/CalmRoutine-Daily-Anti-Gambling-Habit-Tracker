@@ -37,15 +37,15 @@ You can access the live version of CalmRoutine here:
 *Shows the overall layout with checkboxes for daily tasks.*
 ![Dashboard](screenshots/Screenshot%202025-09-28%20190042.png)
 
-### ✅ Daily Routine Section  
+### ✅ Weekly Routine Section  
 *Displays the organized schedule with morning, afternoon, and evening tasks.*
 ![Daily Routine](screenshots/Screenshot%202025-09-28%20190057.png)
 
-### ✅ QR Code Page  
+### ✅ Anti-Gambling-Buffers
 *Provides a scannable QR code to open the routine site quickly.*
 ![QR Page](screenshots/Screenshot%202025-09-28%20190105.png)
 
-### ✅ Mobile View  
+### ✅ QR Code Page
 *Demonstrates responsiveness on smaller screens.*
 ![Mobile View](screenshots/Screenshot%202025-09-28%20190126.png)
 
