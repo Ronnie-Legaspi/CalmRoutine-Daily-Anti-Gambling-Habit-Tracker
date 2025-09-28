@@ -27,7 +27,11 @@ A simple pastel-themed daily habit tracker designed to reduce gambling urges thr
 
 Here are some screenshots of the CalmRoutine interface:
 
-![Screenshot 1](screenshots/Screenshot 2025-09-28 190042.png)
-![Screenshot 2](screenshots/Screenshot 2025-09-28 190057.png)
-![Screenshot 3](screenshots/Screenshot 2025-09-28 190105.png)
-![Screenshot 4](screenshots/Screenshot 2025-09-28 190126.png)
+![Screenshot 1](screenshots/Screenshot%202025-09-28%20190042.png)
+
+![Screenshot 2](screenshots/Screenshot%202025-09-28%20190057.png)
+
+![Screenshot 3](screenshots/Screenshot%202025-09-28%20190105.png)
+
+![Screenshot 4](screenshots/Screenshot%202025-09-28%20190126.png)
+
